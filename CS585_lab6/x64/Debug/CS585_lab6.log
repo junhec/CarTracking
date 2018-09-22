@@ -1,0 +1,24 @@
+﻿Build started 12/5/2016 11:49:58 PM.
+     1>Project "C:\Users\wdqin\Desktop\IVC Final\CS585_lab6_solution\CS585_lab6\CS585_lab6.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (CS585_lab6.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\Opencv\opencv\build\x64\vc14\..\..\include /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(51): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>main.cpp(52): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wdqin\Desktop\IVC Final\CS585_lab6_solution\x64\Debug\CTracker.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Opencv\opencv\build\x64\vc14\lib opencv_world310.lib opencv_world310d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\wdqin\Desktop\IVC Final\CS585_lab6_solution\x64\Debug\CTracker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wdqin\Desktop\IVC Final\CS585_lab6_solution\x64\Debug\CTracker.lib" /MACHINE:X64 x64\Debug\calVelocity.obj
+         x64\Debug\CornerDetection.obj
+         x64\Debug\HungarianAlg.obj
+         x64\Debug\Kalman.obj
+         x64\Debug\LatestPointCatcher.obj
+         x64\Debug\main.obj
+         x64\Debug\testingFunctions.obj
+         x64\Debug\tracker.obj
+         x64\Debug\track_vector.obj
+         CS585_lab6.vcxproj -> C:\Users\wdqin\Desktop\IVC Final\CS585_lab6_solution\x64\Debug\CTracker.exe
+     1>Done Building Project "C:\Users\wdqin\Desktop\IVC Final\CS585_lab6_solution\CS585_lab6\CS585_lab6.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.23
